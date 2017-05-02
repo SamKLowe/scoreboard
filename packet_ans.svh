@@ -17,7 +17,7 @@ class Packet_ans;
 endclass
 
 function Packet_ans::new();
-	valid = 0;
+	reset();
 
 endfunction
 
